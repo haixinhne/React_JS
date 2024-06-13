@@ -1,0 +1,88 @@
+// Tất cả
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --desc: #575f66;
+  --line: #c5c5c5;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0px auto;
+}
+
+// code
+.form_title {
+  color: var(--desc);
+  font-size: 2.6rem;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.input_desc {
+  color: var(--desc);
+  font-size: 2rem;
+}
+
+.action_btn {
+  color: purple;
+  font-size: 1.6rem;
+  padding: 5px;
+  width: 70px;
+}
+
+.action_btn:hover {
+  cursor: pointer;
+  color: var(--desc);
+}
+
+.submit_btn {
+  color: chocolate;
+  font-size: 1.6rem;
+  padding: 5px;
+  width: 70px;
+}
+
+.submit_btn:hover {
+  cursor: pointer;
+  color: var(--desc);
+}
+
+.desc {
+  color: var(--desc);
+  font-size: 2rem;
+}
+
+.close {
+  color: white;
+  padding: 5px;
+}
+
+.close:hover {
+  cursor: pointer;
+  color: red;
+}
